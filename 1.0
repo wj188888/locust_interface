@@ -1,0 +1,5 @@
+Looking in indexes: http://pypi.douban.com/simple
+Collecting ConfigArgParse
+  Downloading http://pypi.doubanio.com/packages/af/cb/2a6620656f029b7b49c302853b433fac2c8eda9cbb5a3bc70b186b1b5b90/ConfigArgParse-1.5.3-py3-none-any.whl (20 kB)
+Installing collected packages: ConfigArgParse
+Successfully installed ConfigArgParse-1.5.3

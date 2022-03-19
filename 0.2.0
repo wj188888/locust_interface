@@ -1,0 +1,17 @@
+Looking in indexes: http://pypi.douban.com/simple
+Collecting Flask-BasicAuth
+  Downloading http://pypi.doubanio.com/packages/16/18/9726cac3c7cb9e5a1ac4523b3e508128136b37aadb3462c857a19318900e/Flask-BasicAuth-0.2.0.tar.gz (16 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: Flask in c:\python36venv\locust_interface\lib\site-packages (from Flask-BasicAuth) (0.6.1)
+Requirement already satisfied: Werkzeug>=0.6.1 in c:\python36venv\locust_interface\lib\site-packages (from Flask->Flask-BasicAuth) (1.0.1)
+Requirement already satisfied: Jinja2>=2.4 in c:\python36venv\locust_interface\lib\site-packages (from Flask->Flask-BasicAuth) (3.0.3)
+Requirement already satisfied: MarkupSafe>=2.0 in c:\python36venv\locust_interface\lib\site-packages (from Jinja2>=2.4->Flask->Flask-BasicAuth) (2.0.1)
+Building wheels for collected packages: Flask-BasicAuth
+  Building wheel for Flask-BasicAuth (setup.py): started
+  Building wheel for Flask-BasicAuth (setup.py): finished with status 'done'
+  Created wheel for Flask-BasicAuth: filename=Flask_BasicAuth-0.2.0-py3-none-any.whl size=4243 sha256=d76486efec3307f3b82b9422bc3309245656db04bbee0a87c6fe753e89ea31c8
+  Stored in directory: c:\users\admin\appdata\local\pip\cache\wheels\ac\3f\98\e8c36cd14181b56ca7a840dd9c5127f30f95d46b08fa21d668
+Successfully built Flask-BasicAuth
+Installing collected packages: Flask-BasicAuth
+Successfully installed Flask-BasicAuth-0.2.0
