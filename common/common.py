@@ -4,6 +4,7 @@ from ruamel.yaml import YAML
 from ruamel import yaml
 
 def read_yaml(yaml_path):
+    # 读取yaml文件
     with open(yaml_path, 'r', encoding='utf-8') as fp:
         yaml_func = YAML(typ='safe', pure=False)
         yaml_data = yaml_func.load(fp)
@@ -15,6 +16,7 @@ def read_yaml(yaml_path):
         raise ValueError
 
 def get_config():
+    # 获取yaml配置
     config = read_yaml(r'../data/Token.yml')
     config = config['config']
     return config
